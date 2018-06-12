@@ -28,5 +28,12 @@ public class InitGames
         gameService.addGame(new Game("game4", "publisher", "developer", 5));
         gameService.addGame(new Game("game5", "publisher", "developer", 5));
         gameService.addGame(new Game("game6", "publisher", "developer", 5));
+
+        gameService.addGenre("genre1");
+        gameService.addGenre("genre2");
+        gameService.addGenre("genre3");
+        gameService.addGenre("genre4");
+        gameService.addGenre("genre5");
+        gameService.addGenre("genre6");
     }
 }
