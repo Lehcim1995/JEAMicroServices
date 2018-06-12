@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/DLC/src/main/java/kafka/KafkaConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/DLC/src/main/java/rest/DLCRestService.java">
           <value>
             <set />
@@ -129,6 +134,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Games/src/main/java/init/InitGames.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Games/src/main/java/kafka/KafkaConsumer.java">
           <value>
             <set />
           </value>
