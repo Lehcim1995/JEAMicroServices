@@ -15,7 +15,7 @@
         <property name="databaseName" value="dlcdb"/>
         <property name="User" value="root"/>
         <property name="Password" value="root"/>
-        <property name="URL" value="jdbc:mysql://localhost:3306/dlc"/>
+        <property name="URL" value="jdbc:mysql://localhost:3306/dlcdb"/>
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
     </jdbc-connection-pool>
     <jdbc-resource enabled="true" jndi-name="java:app/jdbc/DlcDatabase" object-type="user" pool-name="mysql_DlcDatabase_rootPool"/>

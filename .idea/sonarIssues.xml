@@ -23,7 +23,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/DLC/src/main/java/dao/DLCDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/DLC/src/main/java/domain/DLC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DLC/src/main/java/init/InitDLC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DLC/src/main/java/rest/DLCRestService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/DLC/src/main/java/service/DLCService.java">
           <value>
             <set />
           </value>
@@ -174,6 +194,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/User/src/java/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/dao/UserDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/init/InitUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/rest/RestApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/rest/UserRestService.java">
           <value>
             <set />
           </value>
