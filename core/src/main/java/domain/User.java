@@ -1,6 +1,5 @@
 package domain;
 
-import javax.inject.Inject;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

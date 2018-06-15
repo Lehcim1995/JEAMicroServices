@@ -13,4 +13,7 @@ public interface UserDao
 
     List<User> getUsers();
 
+    List<User> getUsersByGame(int gameId);
+
+    User updateUser(User user);
 }

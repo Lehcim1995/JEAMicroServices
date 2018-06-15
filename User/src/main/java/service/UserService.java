@@ -4,6 +4,8 @@ import dao.UserDao;
 import domain.User;
 
 import javax.inject.Inject;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class UserService
@@ -25,5 +27,18 @@ public class UserService
 
     public List<User> getUsers() {
         return userDao.getUsers();
+    }
+
+    public List<User> getUsersByGame(int gameId) {
+        return userDao.getUsersByGame(gameId);
+    }
+
+    public User addGames(User u, Integer... gameIds)
+    {
+        u.setGames(Arrays.asList(gameIds));
+
+        userDao.updateUser(u);
+
+        return u;
     }
 }

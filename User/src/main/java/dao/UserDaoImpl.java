@@ -5,6 +5,7 @@ import domain.User;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.Arrays;
 import java.util.List;
 
 @Stateless
@@ -14,7 +15,8 @@ public class UserDaoImpl implements UserDao
     private EntityManager entityManager;
 
     @Override
-    public User addUser(User user) {
+    public User addUser(User user)
+    {
 
         entityManager.persist(user);
 
@@ -22,7 +24,8 @@ public class UserDaoImpl implements UserDao
     }
 
     @Override
-    public User addUser(String user) {
+    public User addUser(String user)
+    {
 
         User u = new User(user);
 
@@ -30,15 +33,31 @@ public class UserDaoImpl implements UserDao
     }
 
     @Override
-    public User getUser(int id) {
+    public User getUser(int id)
+    {
         return entityManager.createQuery("SELECT user FROM User user WHERE user.id = :id", User.class)
                             .setParameter("id", id)
                             .getSingleResult();
     }
 
     @Override
-    public List<User> getUsers() {
+    public List<User> getUsers()
+    {
         return entityManager.createQuery("SELECT user FROM User user", User.class)
                             .getResultList();
+    }
+
+    @Override
+    public List<User> getUsersByGame(int gameId)
+    {
+        return entityManager.createQuery("SELECT user FROM User user WHERE user.games in :id", User.class)
+                            .setParameter("id", Arrays.asList(gameId))
+                            .getResultList();
+    }
+
+    @Override
+    public User updateUser(User user) {
+
+        return entityManager.merge(user);
     }
 }

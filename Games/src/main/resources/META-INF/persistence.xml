@@ -5,7 +5,11 @@
              http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd" version="2.1">
     <persistence-unit name="gamePU">
         <jta-data-source>java:app/jdbc/GameDatabase</jta-data-source>
-        <exclude-unlisted-classes>false</exclude-unlisted-classes>
+        <!--<exclude-unlisted-classes>false</exclude-unlisted-classes>-->
+        <class>domain.Game</class>
+        <class>domain.User</class>
+        <class>domain.DLC</class>
+        <class>domain.Genre</class>
         <properties>
             <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
             <!--<property name="eclipselink.logging.logger" value="DefaultLogger"/>-->

@@ -68,6 +68,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Eventbus/src/main/java/rest/KafkaRestService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Eventbus/src/main/java/rest/REstClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Eventbus/src/main/java/service/KafkaService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/Eventbus/src/main/webapp/WEB-INF/web.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Games/pom.xml">
           <value>
             <set />
@@ -148,6 +168,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Games/src/main/java/rest/RestApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Games/src/main/java/service/GameService.java">
           <value>
             <set />
@@ -208,6 +233,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/dao/UserDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/User/src/main/java/dao/UserDaoImpl.java">
           <value>
             <set />
@@ -228,12 +258,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/User/src/main/java/service/UserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/User/src/main/resources/META-INF/persistence.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/User/src/main/webapp/WEB-INF/glassfish-resources.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/DLC/src/main/java/kafka/KafkaConsumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/domain/Game.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/rest/REstClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/core/src/main/java/util/RestUtil.java">
           <value>
             <set />
           </value>
